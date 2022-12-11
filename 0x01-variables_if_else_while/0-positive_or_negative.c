@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - Main Entry
- * Return : Always 0 succes
+ * Return -  Always 0 succes
  */
 int main(void)
 {
