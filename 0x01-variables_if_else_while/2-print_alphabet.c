@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	int c = 'A';
-	int result = tolower(c);
+	char c = 'A';
+	char result = tolower(c);
 	while (result <= 'Z')
-	putchar("%d\n", result);
+	putchar("%c\n", result);
 	result++;
 
 	return(0);
