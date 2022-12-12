@@ -8,7 +8,12 @@
  */
 int main(void)
 {
-	int c = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z";
+	int c = 'A';
 	int result = tolower(c);
+	while (result <= 'Z')
 	putchar("%d\n", result);
+	result++;
+
+	return(0);
+	
 }
