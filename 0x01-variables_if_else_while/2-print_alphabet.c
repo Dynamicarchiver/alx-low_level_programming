@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	char c = 'A';
-	char result = tolower(c);
-	while (result <= 'Z')
-	putchar("%c\n", result);
+	char c = 'a';
+	while (c <= 'z')
+	putchar("%c", c);
 	result++;
+	putchar("\n");
 
 	return(0);
 	
