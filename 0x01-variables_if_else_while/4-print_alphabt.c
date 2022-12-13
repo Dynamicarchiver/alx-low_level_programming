@@ -12,9 +12,9 @@ int main(void)
 	c = 'a';
 	while (c <= 'z')
 	{
-		putchar (c);
 		if ((c = 'q'))
 		{
+			putchar (c);
 			c = c + 2;
 		}
 		else if ((c = 'e'))
