@@ -12,13 +12,13 @@ int main(void)
 	a = 0;
 	while (a <= 9)
 	{
+		putchar(a + '0');
+		a++;
 		if (a < 9)
 		{
 		putchar(',');
 		putchar(32);
 		}	
-		putchar(a + '0');
-		a++;
 	}
 	putchar('\n');
 	return (0);
