@@ -17,8 +17,11 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 		}
+		else
+		{
 		putchar(a + '0');
 		a++;
+		}
 	}
 	putchar('\n');
 	return (0);
