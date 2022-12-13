@@ -10,19 +10,19 @@ int main(void)
 	char c;
 
 	c = 'a';
-	while (c <= z)
+	while (c <= 'z')
 	{
+		putchar (c);
 		if (c = 'q' || c = 'e')
 		{
 			c = c + 2;
 		}
 		else
 		{
-			putchar(c);
 			c++;
 		}
 	}
 		putchar('\n');
 
-		Return (0);
+		return (0);
 }
