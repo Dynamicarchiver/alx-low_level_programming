@@ -13,11 +13,11 @@ int main(void)
 	{
 		if (a < 10)
 		{
-			putchar('0' + n);
+			putchar('0' + a);
 		}
 		else
 		{
-			putchar(87 + n);
+			putchar(87 + a);
 		}
 		a++;
 	}
