@@ -21,7 +21,7 @@ int main(void)
 		{
 			c = c + 2;
 		}
-		else if ((c = z))
+		else if ((c = 'z'))
 		{
 			break;
 		}
