@@ -12,7 +12,11 @@ int main(void)
 	c = 'a';
 	while (c <= 'z')
 	{
-		if ((c = 'q' || c = 'e'))
+		if ((c = 'q'))
+		{
+			c = c + 2;
+		}
+		else if ((c = 'e'))
 		{
 			c = c + 2;
 		}
