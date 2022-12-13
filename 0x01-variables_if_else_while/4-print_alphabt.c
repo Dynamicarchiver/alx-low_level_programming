@@ -12,24 +12,15 @@ int main(void)
 	c = 'a';
 	while (c <= 'z')
 	{
-		putchar(c);
-		if ((c = 'q'))
+		if ((c == 'q' || c == 'e'))
 		{
 			c = c + 2;
 		}
-		else if ((c = 'e'))
+		else 
 		{
-			c = c + 2;
-		}
-		else if ((c = 'z'))
-		{
-			break;
-		}
-		else
-		{
+			putchar(c);
 			c++;
 		}
-	}
 		putchar('\n');
 
 		return (0);
