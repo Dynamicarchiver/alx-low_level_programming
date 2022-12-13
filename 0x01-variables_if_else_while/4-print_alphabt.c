@@ -12,6 +12,7 @@ int main(void)
 	c = 'a';
 	while (c <= 'z')
 	{
+		putchar (c);
 		if ((c = 'q'))
 		{
 			c = c + 2;
@@ -23,7 +24,6 @@ int main(void)
 		else
 		{
 			c++;
-			putchar(c);
 		}
 	}
 		putchar('\n');
