@@ -9,7 +9,7 @@ int main(void)
 {
 	int a;
 
-	while(a < 16)
+	while (a < 16)
 	{
 		if (a < 10)
 		{
