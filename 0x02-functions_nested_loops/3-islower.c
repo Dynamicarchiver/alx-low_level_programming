@@ -7,7 +7,13 @@
  */
 
 int _islower(int c)
+
 {
-	_putchar(c + '0');
-	_putchar('\n');
+	if(c <= 'a')
+	{
+		_putchar('1');
+	}
+	else
+	{
+	_putchar('0');
 }
