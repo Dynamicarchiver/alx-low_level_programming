@@ -2,8 +2,9 @@
 
 /**
  * add - Entry point
- * @ab: numbers to add
- * Return: the sum of the two numbers
+ * @a: first number to add
+ * @b: second number to add
+ * Return: the sum of the a and b
  */
 
 int add(int a, int b)
