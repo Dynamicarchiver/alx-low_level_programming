@@ -10,9 +10,10 @@ int main(void)
 	int a;
 
 	a = 'a';
-	whlile (a <= 'z')
+	while (a <= 'z')
 	{
 		_putchar(a);
 		a++;
 	}
+	return (0);
 }
