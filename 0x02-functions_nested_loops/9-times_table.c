@@ -14,10 +14,10 @@ void times_table(void)
 	a = 0;
 	while (a < 10)
 	{
-		b = 0;
-		c = (a * b);
+		b = 1;
 		while (b < 10)
 		{
+			c = (a * b);
 			 if ((c / 10) > 0)
 			{
 			_putchar((c / 10) + '0');
