@@ -17,7 +17,7 @@ void times_table(void)
 		b = 0;
 		while (b < 10)
 		{
-			int c = (a * b);
+			c = (a * b);
 			if (b > 0 && b < 10)
 			{
 				_putchar(',');
