@@ -24,7 +24,13 @@ void times_table(void)
 				_putchar(' ');
 				_putchar(' ');
 			}
-			_putchar((c * 1) + '0');
+			else if (c / 10 > 0)
+			{
+			_putchar((c / 10) + '0');
+			}
+			else
+			{
+				_putchar(c + '0');
 			b++;
 		}
 		a++;
