@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * jack_baurer - Entry point
+ * jack_bauer - Entry point
  *
  * Return: 0
  */
 
-void jack_baurer(void)
+void jack_bauer(void)
 {
 	int h;
 	int m;
