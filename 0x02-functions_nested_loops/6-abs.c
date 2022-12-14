@@ -3,7 +3,7 @@
 /**
  * _abs - Entry point
  * @a: number to be read
- * return: the absolute value of number
+ * Return: the absolute value of number
  */
 int _abs(int a)
 {
