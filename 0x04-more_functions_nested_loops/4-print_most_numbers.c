@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - Entry point
  *
- * Return: 0 -9, excluding 2 and 4, followed by a new line
+ * Return: 0-9, excluding 2 and 4, followed by a new line
  */
 void print_most_numbers(void)
 {
