@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * mul - Entry point
- * @: first input
+ * @a: first input
  * @b: second input
  * * Return: multiplication of a and b
  */
