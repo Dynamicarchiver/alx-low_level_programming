@@ -8,7 +8,7 @@ int mul(int a, int b)
 	if (c < 0)
 	{
 		_putchar('-');
-		return (c)
+		return (c);
 	}
 	else
 	{
