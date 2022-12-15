@@ -1,30 +1,33 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry point
- * @n: input number of times '\' should be printed
- * Return: a diagonal
+ * print_diagonal -  checks for checks for a digit (0 through 9).
+ * @n: n -  Variable
+ *
+ * Return: Always 0.
  */
-
 void print_diagonal(int n)
 {
-	int a;
-	int b;
+	int x, y;
 
-	if (n <= 0)
+	if (n > 0)
 	{
-		_putchar('\n');
+		for (x = 1; x <= n; x++)
+		{
+			for (y = 1; y <= n; y++)
+			{
+				if (x == y)
+				{
+					_putchar(92);
+					break;
+				}
+				_putchar(' ');
+			}
+			_putchar('\n');
+		}
 	}
 	else
 	{
-		for (a = 1; a <= n; a++)
-		{
-			for (b = 1; b <= a; b++)
-			{
-				_putchar(' ');
-			}
-			_putchar('\\');
-			_putchar('\n');
-		}
+		_putchar('\n');
 	}
 }
