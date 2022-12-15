@@ -10,5 +10,8 @@ int mul(int a, int b)
 		_putchar('-);
 		return (c);
 	}
+	else
+	{
 	return (c);
+	}
 }
