@@ -2,8 +2,8 @@
 
 /**
  * print_diagonal - Entry point
- * @n: number of spacess
- * Return: 0
+ * @n: input number of times '\' should be printed
+ * Return: a diagonal
  */
 
 void print_diagonal(int n)
@@ -23,8 +23,8 @@ void print_diagonal(int n)
 			{
 				_putchar(' ');
 			}
+			_putchar('\\');
+			_putchar('\n');
 		}
-		_putchar('\\');
-		_putchar('\n');
 	}
 }
