@@ -3,7 +3,7 @@
 /**
  * print_most_numbers - Entry point
  *
- * Return: 0;
+ * Return: 0
  */
 void print_most_numbers(void)
 {
