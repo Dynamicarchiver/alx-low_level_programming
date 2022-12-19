@@ -4,12 +4,13 @@
  * *_strcpy - Entry point
  * @dest: copied
  * @src:copier
+ * Return: 0
  */
 char *_strcpy(char *dest, char *src)
 {
 	int i;
 
-	for(i = 0; i != '\0'; i++)
+	for(i = 0; src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
