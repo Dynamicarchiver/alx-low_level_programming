@@ -3,9 +3,9 @@
 /**
  * _strlen - Entry point
  * @s: pointer
- * Return: 0
+ * Return: length of string
  */
 int _strlen(char *s)
 {
-	*s = (sixeof(*s) - 1);
+       return ((sizeof(*s) - 1);
 }
