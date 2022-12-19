@@ -6,5 +6,5 @@
  */
 int _strlen(char *s)
 {
-	*s = *s[];
+	*s[] = (sixeof(*s) - 1);
 }
