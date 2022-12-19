@@ -6,11 +6,12 @@
  * @src:copier
  * Return: 0
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy (char *dest, char *src)
 {
 	int i;
 
-	for(i = 0; src[i] != '\0'; i++)
+	i = 0;
+	for (; src[i] != '\0'; i++)
 	{
 		dest[i] = src[i];
 	}
