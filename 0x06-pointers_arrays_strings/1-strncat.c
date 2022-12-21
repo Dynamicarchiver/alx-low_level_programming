@@ -24,7 +24,7 @@ char *_strncat(char *dest, char *src, int n)
 	 */
 	while (n--)
 	{
-		if (!(*d++ == *src++))
+		if (!(*d++ = *src++))
 		{
 			return (dest);
 		}
