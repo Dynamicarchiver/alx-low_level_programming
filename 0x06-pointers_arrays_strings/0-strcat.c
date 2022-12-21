@@ -9,9 +9,7 @@
  */
 
 char *_strcat(char *dest, char *src)
-{
-	if (dest == NULL && src == NULL)
-		return (NULL);
+{	
 	char *d = dest;
 
 	while (*d != '\0')
@@ -24,5 +22,5 @@ char *_strcat(char *dest, char *src)
 	}
 
 	*d = '\0';
-	return (d);
+	return (dest);
 }
