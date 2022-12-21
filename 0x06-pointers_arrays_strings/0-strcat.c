@@ -10,15 +10,15 @@
 
 char *_strcat(char *dest, char *src)
 {
-	if (dest == NULL && src == NULL)
-		return (NULL);
+	/*if (dest == NULL && src == NULL)
+		return (NULL);*/
 	for (; *dest != '\0'; dest++)
 	{
-		_putchar(*dest);
+		putchar(*dest);
 	}
 	for (; *src != '\0'; src++)
 	{
-		*dest++ = _putchar(*src);
+		*dest++ = putchar(*src);
 	}
 
 	*dest = '\0';
