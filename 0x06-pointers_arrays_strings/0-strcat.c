@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _strcat - Entry point
@@ -19,6 +20,7 @@ char *_strcat(char *dest, char *src)
 	{
 		*dest++ = _putchar(*src);
 	}
-	*dest = '\0';
 
+	*dest = '\0';
+	return (0);
 }
