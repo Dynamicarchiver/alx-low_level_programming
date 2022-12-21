@@ -10,8 +10,8 @@
 
 char *_strcat(char *dest, char *src)
 {
-	/*if (dest == NULL && src == NULL)
-		return (NULL);*/
+	if (dest == NULL && src == NULL)
+		return (NULL);
 	char *d = dest;
 
 	while (*d != '\0')
