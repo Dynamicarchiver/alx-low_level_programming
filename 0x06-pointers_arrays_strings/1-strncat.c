@@ -10,27 +10,23 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	/*Create a copy of dest*/
-	char *d = dest;
+	/*initialize the variable we will need to iterate*/
+	int i, j;
 
-	/*Find the end of the destination string*/
-	while (*d != '\0')
+	/*iteratinh through array dest and checking if it is not '\0' */
+	for (i = 0; dest[i] != '\0'; i++)
 	{
-		d++;
 	}
-	/**
-	 * Appending the source string character
-	 * until not get null charcter of src or n != 0
-	 */
-	while (n--)
-	{
-		if (!(*d++ = *src++))
-		{
-			return (dest);
-		}
-	}
-	/*appending null charcter in the last*/
-	*dest = '\0';
 
+	/******* iterating through a specific number in src *******/
+	for (j = 0; j < n; j++)
+	{
+	dest[i + j] = src[j];
+
+	if (src[j] == '\0')
+	{
+		j = n;
+	}
+	}
 	return (dest);
 }
