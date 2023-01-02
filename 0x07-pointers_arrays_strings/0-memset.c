@@ -12,9 +12,6 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
 
-	/*type castiing *s from void to a char*/
-	char *st = (char*) s;
-
 	/*filling n element with b*/
 	for (i = 0; i < n; i++)
 	{
