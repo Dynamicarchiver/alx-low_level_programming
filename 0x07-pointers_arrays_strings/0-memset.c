@@ -8,7 +8,7 @@
  * Return: a pointer to the memeory area
  */
 
-char *_memeset(char *s, char b, unsigned int n)
+char *_memset(char *s, char b, unsigned int n)
 {
 	int i;
 	/*type castiing *s from void to a char*/
