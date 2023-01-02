@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _memecpy - A function that copies the memory area src to memory area dest
+ * _memcpy - A function that copies the memory area src to memory area dest
  * @dest: destination to copy to
  * @src: destinatiom to copy from
- * n: number of bytes to copy 
+ * @n: number of bytes to copy
  * Return: dest
  */
 
