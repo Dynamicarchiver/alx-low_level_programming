@@ -7,7 +7,7 @@
  * Return: the point where a match was found i.e the number
  */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int i, j;
 
