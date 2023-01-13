@@ -20,11 +20,11 @@ int main(void)
 				{
 					if (a <= c && b < d)
 					{
-						putchar(a);
-						putchar(b);
+						putchar(a + '0');
+						putchar(b + '0');
 						putchar(' ');
-						putchar(c);
-						putchar(d);
+						putchar(c + '0');
+						putchar(d + '0');
 					if (a > 9)
 					{
 						putchar(',');
