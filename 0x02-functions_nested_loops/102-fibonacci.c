@@ -25,4 +25,5 @@ int main(void)
 		b = c;
 		c = sum;
 	}
+	return (0);
 }
