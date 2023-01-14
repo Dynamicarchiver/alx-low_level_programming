@@ -22,7 +22,7 @@ void print_times_table(int n)
 				printf("%d", c);
 				if (b < n)
 				{
-					d = a * (b + 1);
+					int d = a * (b + 1);
 
 					if (d < 10)
 					{
