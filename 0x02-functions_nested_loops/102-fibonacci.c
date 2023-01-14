@@ -20,8 +20,9 @@ int main(void)
 		printf("%d", sum);
 		if (a < 50)
 			printf(", ");
+		else
+			printf('\n');
 		b = c;
 		c = sum;
 	}
-	printf("\n");
 }
