@@ -16,6 +16,10 @@ int main(void)
 	for (a = 0; a < 98; a++)
 	{
 		sum = b + c;
+		if (sum > 0)
+		{
+			sum *= -1
+		}
 		printf("%d", sum);
 		if (a < 97)
 		{
