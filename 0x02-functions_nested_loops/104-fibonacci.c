@@ -1,36 +1,50 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Print first 50 Fibonacci numbers
  *
- * Return: 0
+ * Return: Return 0
  */
-
 int main(void)
 {
-	int a, b, c, sum;
+	long int f, s, c, sum, halfaf, halfbf, halfas, halfbs;
+	long int printfhalf, printshalf;
 
-	b = 0;
-	c = 1;
 	sum = 0;
-	for (a = 0; a < 98; a++)
+	f = 0;
+	s = 1;
+	for (c = 0; c < 91; c++)
 	{
-		sum = b + c;
-		if (sum < 0)
-		{
-			sum *= -1;
-		}
-		printf("%d", sum);
-		if (a < 97)
-		{
+		sum = f + s;
+		printf("%ld", sum);
+		if (c != 97)
 			printf(", ");
-		}
-		else
-		{
-			printf("\n");
-		}
-		b = c;
-		c = sum;
+		f = s;
+		s = sum;
 	}
+	halfaf = f / 1000000000;
+	halfbf = f % 1000000000;
+	halfas = s / 1000000000;
+	halfbs = s % 1000000000;
+	while (c < 98)
+	{
+		printfhalf = halfaf + halfas;
+		printshalf = halfbf + halfbs;
+		if (printshalf >= 1000000000)
+		{
+			printshalf %= 1000000000;
+			printfhalf++;
+		}
+		printf("%ld%ld", printfhalf, printshalf);
+		if (c == 97)
+			break;
+		printf(", ");
+		halfaf = halfas;
+		halfbf = halfbs;
+		halfas = printfhalf;
+		halfbs = printshalf;
+		c++;
+	}
+	printf("\n");
 	return (0);
 }
