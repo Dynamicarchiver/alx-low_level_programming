@@ -18,7 +18,7 @@ int main(void)
 		sum = b + c;
 		if ((sum % 2) == 0)
 		{
-			printf("%ld\n");
+			printf("%ld\n", sum);
 		}
 		b = c;
 		c = sum;
