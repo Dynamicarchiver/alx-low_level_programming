@@ -8,22 +8,21 @@
 
 int main(void)
 {
-	int a, b, c, sum;
+	long int a, b, c, sum;
 	
 	b = 0;
 	c = 1;
 	sum = 0;
 
-	for (a = 0; a <= 50; a ++)
+	for (a = 0; a < 50; a ++)
 	{
 		sum = b + c;
-		printf("%d", sum);
-		if (a < 50)
+		printf("%ld", sum);
+		if (a < 49)
 			printf(", ");
-		else
-			printf("\n");
 		b = c;
 		c = sum;
 	}
+	printf('\n');
 	return (0);
 }
