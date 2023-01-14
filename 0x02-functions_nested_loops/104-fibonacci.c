@@ -18,7 +18,7 @@ int main(void)
 		sum = b + c;
 		if (sum > 0)
 		{
-			sum *= -1
+			sum *= -1;
 		}
 		printf("%d", sum);
 		if (a < 97)
