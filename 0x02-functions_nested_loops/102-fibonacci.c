@@ -21,7 +21,7 @@ int main(void)
 		if (a < 50)
 			printf(", ");
 		else
-			printf('\n');
+			printf("\n");
 		b = c;
 		c = sum;
 	}
