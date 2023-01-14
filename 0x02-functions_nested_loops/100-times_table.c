@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_times_table - A functio that print time table of n 
+ * print_times_table - A functio that print time table of n
  * @n: numbers of times to print timetable
  * Return: 0
  */
@@ -28,7 +28,7 @@ void print_times_table(int n)
 					{
 						printf(",   ");
 					}
-					else if(d < 100)
+					else if (d < 100)
 					{
 						printf(",  ");
 					}
