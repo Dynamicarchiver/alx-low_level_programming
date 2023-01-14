@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	long int a, b, c, sum;
+	long int a, b, c, sum, add;
 
 	b = 0;
 	c = 1;
@@ -18,10 +18,11 @@ int main(void)
 		sum = b + c;
 		if ((sum % 2) == 0)
 		{
-			printf("%ld\n", sum);
+			add += sum;
 		}
 		b = c;
 		c = sum;
 	}
+	printf("%ld\n", add);
 	return (0);
 }
