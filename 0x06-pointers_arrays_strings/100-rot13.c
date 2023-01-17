@@ -24,7 +24,7 @@ char *rot13(char *n)
 	{
 		for (x = 0; x < 52; x++)
 		{
-			if (*(n + i) = find[x])
+			if (*(n + i) == find[x])
 			{
 				*(n + i) = replace[x];
 				x = 52;
