@@ -9,12 +9,12 @@
 
 int prime_check(int n, int c)
 {
-	if (n % f == 0 && f != n / 2)
+	if (n % c == 0 && c != n / 2)
 		return (0);
-	else if (f >= n / 2)
+	else if (c >= n / 2)
 		return (1);
 	else
-		return (prime_check(n, n + 1));
+		return (prime_check(n, c + 1));
 }
 
 /**
