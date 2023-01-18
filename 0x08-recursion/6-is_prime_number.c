@@ -18,12 +18,12 @@ int prime_check(int n, int c)
 }
 
 /**
- * _is_prime_number - a function to check if n is a primr number
+ * is_prime_number - a function to check if n is a primr number
  * @n: number to be checked
  * Return: 1 if prime else 0
  */
 
-int _is_prime_number(int n)
+int is_prime_number(int n)
 {
 	if (n > 1)
 		return (prime_check(n, 2));
