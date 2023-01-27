@@ -3,14 +3,14 @@
 #include <stdio.h>
 
 /**
- * wordcount - counts words and letters
+ * wordcounter - counts words and letters
  * @str: string to count
  * @pos: position of the word characters
  * @firstchar: position of the first letter of the word
  * Return: wordcount
  */
 
-int wordcount(char *str, int pos, char firstchar)
+int wordcounter(char *str, int pos, char firstchar)
 {
 	int i, wordcount, charcount, flag;
 
